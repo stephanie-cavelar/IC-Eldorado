@@ -1,5 +1,5 @@
 # IC-Eldorado
-Welcome to our microelectronics research repo! Join us in developing &amp; testing a custom SPI (Serial Peripheral Interface) chip. Dive into the world of digital systems, innovation, and efficient communication. Get involved, explore our progress, and be a part of this thrilling journey in microelectronics!
+Welcome to our microelectronics research repo! Join us in developing &amp; testing a custom SPI (Serial Peripheral Interface) chip. Dive into the world of digital systems, innovation, and efficient communication. Get involved, explore our progress, and be a part of this thrilling journey in microelectronics! This undergraduate research project is being developed by a student from UFMG under the guidance of a professor from the same institution.
 
 ## Introdução
 A Serial Peripheral Interface (SPI) é um protocolo de comunicação síncrono utilizado para a transferência de dados entre dispositivos em um circuito integrado. Ele envolve um mestre e um ou mais dispositivos escravos, sendo comumente usado para conectar microcontroladores, sensores, displays e outros periféricos.
