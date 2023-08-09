@@ -2,9 +2,9 @@
 Welcome to our microelectronics research repo! Join us in developing &amp; testing a custom SPI (Serial Peripheral Interface) chip. Dive into the world of digital systems, innovation, and efficient communication. Get involved, explore our progress, and be a part of this thrilling journey in microelectronics! This undergraduate research project is being developed by a student from UFMG under the guidance of a professor from the same institution.
 
 ## Introdução
-A Serial Peripheral Interface (SPI) é um protocolo de comunicação síncrono utilizado para a transferência de dados entre dispositivos em um circuito integrado. Ele envolve um Main (Principal) e um ou mais dispositivos Secundários, sendo comumente usado para conectar microcontroladores, sensores, displays e outros periféricos.
+A Serial Peripheral Interface (SPI) funciona conforme um protocolo de comunicação síncrono utilizado para a transferência de dados entre dispositivos em um circuito integrado. Ele envolve um Main (Principal) e um ou mais dispositivos Secundários, sendo comumente usado para conectar microcontroladores, sensores, displays e outros periféricos.
 
-O funcionamento da SPI ocorre da seguinte forma: o mestre gera um sinal de clock contínuo, sincronizando a comunicação. Ele também seleciona o dispositivo secundário com o qual deseja se comunicar, ativando sua linha de seleção (chip select). Os dados são transmitidos em ambos os sentidos simultaneamente, utilizando duas linhas de dados (MOSI - Main para Secundário e MISO - Secundário para Main).
+O funcionamento da SPI ocorre da seguinte forma: o Main gera um sinal de clock contínuo, sincronizando a comunicação. Ele também seleciona o dispositivo secundário com o qual deseja se comunicar, ativando sua linha de seleção (chip select). Os dados são transmitidos em ambos os sentidos simultaneamente, utilizando duas linhas de dados (MOSI - Main para Secundário e MISO - Secundário para Main).
 
 Cada dispositivo secundário possui um registrador de deslocamento de dados (shift register) no qual os bits são armazenados temporariamente. No lado do Main, ele envia bits para o registrador de deslocamento do dispositivo secundário e recebe os bits do dispositivo secundário em seu próprio registrador de deslocamento.
 
