@@ -18,7 +18,8 @@ Assim sendo, após realizar uma busca na internet por cores confiáveis e de có
 ## Testes
 Através da utilização das ferramentas do software Quartus e de um FPGA da Altera (Cyclone V), foi conduzido um teste para a avaliação da interface Serial Peripheral Interface (SPI).
 
-https://github.com/stephanie-cavelar/IC-Eldorado/raw/main/WhatsApp%20Video%202023-08-31%20at%2017.48.20.mp4
+https://github.com/stephanie-cavelar/IC-Eldorado/raw/main/WhatsApp%20Video%202023-08-31%20at%2017.48.20%20(2)%20(1).mp4
+
 ## Referências
 Serial Peripheral Interface (SPI) em Verilog. Disponível em: https://alchitry.com/serial-peripheral-interface-spi-verilog. Acesso em: [06 de agosto de 2023].
 
