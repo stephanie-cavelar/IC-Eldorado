@@ -15,6 +15,8 @@ A SPI oferece alta velocidade de comunicação e permite ajustar parâmetros com
 ## Escolha de um IP Core
 Um IP Core (Intellectual Property Core) é um bloco de circuito digital predefinido e reutilizável que contém funcionalidades específicas, como processadores, controladores de interface, módulos de comunicação ou lógica customizada. Ele é projetado para ser incorporado em projetos maiores de sistemas digitais, permitindo economia de tempo e recursos, além de fornecer uma maneira eficiente de integrar funcionalidades complexas em um chip ou sistema. IPs cores são criados, licenciados e compartilhados entre designers, acelerando o desenvolvimento de produtos eletrônicos e sistemas embarcados.
 Assim sendo, após realizar uma busca na internet por cores confiáveis e de código aberto, o Core Neorv32 foi escolhido para o projeto devido ao seu desenvolvimento recente, sua versatilidade e sua adequação aos objetivos propostos.
+## Testes
+Através da utilização das ferramentas do software Quartus e de um FPGA da Altera (Cyclone V), foi conduzido um teste para a avaliação da interface Serial Peripheral Interface (SPI).
 
 ## Referências
 Serial Peripheral Interface (SPI) em Verilog. Disponível em: https://alchitry.com/serial-peripheral-interface-spi-verilog. Acesso em: [06 de agosto de 2023].
