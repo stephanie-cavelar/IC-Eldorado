@@ -17,6 +17,11 @@ Um IP Core (Intellectual Property Core) é um bloco de circuito digital predefin
 Assim sendo, após realizar uma busca na internet por cores confiáveis e de código aberto, o Core Neorv32 foi escolhido para o projeto devido ao seu desenvolvimento recente, sua versatilidade e sua adequação aos objetivos propostos.
 ## Testes
 Através da utilização das ferramentas do software Quartus e de um FPGA da Altera (Cyclone V), foi conduzido um teste para a avaliação da interface Serial Peripheral Interface (SPI).
+Montagem na placa de desenvolvimento:
+
+![WhatsApp Image 2023-08-31 at 18 27 27](https://github.com/stephanie-cavelar/IC-Eldorado/assets/80367957/284966eb-851e-46b0-96d2-1f819499d3cf)
+
+Os sinais MOSI, MISO, Clock e Chip Select foram associados aos pinos da GPIO e foram devidamente conectados por fios. O teste de loopback tem a intenção de testar a comunicação entre os blocos Main e Secundário. O arquivo loopback.vhd descreve a integração entre esses dois blocos, permitindo sua implementação simultânea no FPGA.
 
 ![WhatsApp Image 2023-08-31 at 17 31 59](https://github.com/stephanie-cavelar/IC-Eldorado/assets/80367957/bd514fd4-02bb-4f31-a13f-75454e178348)
 
