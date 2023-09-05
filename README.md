@@ -24,7 +24,7 @@ Montagem na placa de desenvolvimento:
 Os sinais MOSI, MISO, Clock e Chip Select foram associados aos pinos da GPIO e foram devidamente conectados por fios. O teste de loopback tem a intenção de testar a comunicação entre os blocos Main e Secundário. O arquivo loopback.vhd descreve a integração entre esses dois blocos, permitindo sua implementação simultânea no FPGA.
 ### Modificação do módulo
 Os cores Main e Secundário foram descritos em VHDL, no arquivo loopback.vhd, de forma que, no FPGA, fosse possível ter uma interface contendo tanto Main quanto Secundário. Assim, com o auxílio de chaves e do display de 7 segmentos, foi testada a comunicação entre esses dois módulos. 
-Na figura a seguir pode-se observar que os dados advindos do Secundário (S-din) chegam corretamente ao Main (M-dout). Da mesma forma, os dados advindos do Main (m-din) chegam corretamente ao Secundário (s-dout).
+Na figura a seguir pode-se observar que os dados advindos do Secundário (S-din) chegam corretamente ao Main (M-dout). Da mesma forma, os dados advindos do Main (m-din) chegam corretamente ao Secundário (s-dout), sendo que os sinais S-din e m-din, como mostrado na figura, são definidos manualmente pelo usuário, por meio das chaves disponíveis na placa de Desenvolvimento utilizada. 
 
 ![WhatsApp Image 2023-08-31 at 17 31 59](https://github.com/stephanie-cavelar/IC-Eldorado/assets/80367957/bd514fd4-02bb-4f31-a13f-75454e178348)
 
