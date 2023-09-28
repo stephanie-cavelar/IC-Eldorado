@@ -1,0 +1,110 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 13:30:57  September 25, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		spi_loopback_ep4ce6sb_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY spi_loopback
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:30:57  SEPTEMBER 25, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name VHDL_FILE "../spi-fpga-master/spi-fpga-master/rtl/spi_slave.vhd"
+set_global_assignment -name VHDL_FILE "../spi-fpga-master/spi-fpga-master/rtl/spi_master.vhd"
+set_global_assignment -name VHDL_FILE "../spi-fpga-master/spi-fpga-master/examples/common/sseg_driver.vhd"
+set_global_assignment -name VHDL_FILE "../spi-fpga-master/spi-fpga-master/examples/common/rst_sync.vhd"
+set_global_assignment -name VHDL_FILE "../spi-fpga-master/spi-fpga-master/examples/common/clk_en_gen.vhd"
+set_global_assignment -name VHDL_FILE "../spi-fpga-master/spi-fpga-master/examples/common/btn_debounce.vhd"
+set_global_assignment -name VHDL_FILE "../spi-fpga-master/spi-fpga-master/examples/loopback/spi_loopback.vhd"
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AF10 -to key_m_data[3]
+set_location_assignment PIN_AF9 -to key_m_data[2]
+set_location_assignment PIN_AC12 -to key_m_data[1]
+set_location_assignment PIN_AB12 -to key_m_data[0]
+set_location_assignment PIN_AF14 -to CLK
+set_location_assignment PIN_AC9 -to BTN_MENU_ACTION
+set_location_assignment PIN_AD10 -to BTN_MENU_MODE
+set_location_assignment PIN_AE12 -to BTN_RST
+set_location_assignment PIN_AC18 -to M_CS_N
+set_location_assignment PIN_Y17 -to M_MISO
+set_location_assignment PIN_AD17 -to M_MOSI
+set_location_assignment PIN_Y18 -to M_SCLK
+set_location_assignment PIN_AA25 -to SSEG2[6]
+set_location_assignment PIN_AA26 -to SSEG2[5]
+set_location_assignment PIN_AB26 -to SSEG2[4]
+set_location_assignment PIN_AB27 -to SSEG2[3]
+set_location_assignment PIN_Y27 -to SSEG2[2]
+set_location_assignment PIN_AA28 -to SSEG2[1]
+set_location_assignment PIN_V25 -to SSEG2[0]
+set_location_assignment PIN_AH28 -to SSEG3[6]
+set_location_assignment PIN_AG28 -to SSEG3[5]
+set_location_assignment PIN_AF28 -to SSEG3[4]
+set_location_assignment PIN_AG27 -to SSEG3[3]
+set_location_assignment PIN_AE28 -to SSEG3[2]
+set_location_assignment PIN_AE27 -to SSEG3[1]
+set_location_assignment PIN_AE26 -to SSEG3[0]
+set_location_assignment PIN_W25 -to SSEG[6]
+set_location_assignment PIN_V23 -to SSEG[5]
+set_location_assignment PIN_W24 -to SSEG[4]
+set_location_assignment PIN_W22 -to SSEG[3]
+set_location_assignment PIN_Y24 -to SSEG[2]
+set_location_assignment PIN_Y23 -to SSEG[1]
+set_location_assignment PIN_AA24 -to SSEG[0]
+set_location_assignment PIN_Y21 -to LED_M_VLD
+set_location_assignment PIN_W21 -to LED_S_VLD
+set_location_assignment PIN_AB17 -to S_CS_N
+set_location_assignment PIN_AA21 -to S_MISO
+set_location_assignment PIN_AB21 -to S_MOSI
+set_location_assignment PIN_AC23 -to S_SCLK
+set_location_assignment PIN_AC30 -to SSEG4[6]
+set_location_assignment PIN_AC29 -to SSEG4[5]
+set_location_assignment PIN_AD30 -to SSEG4[4]
+set_location_assignment PIN_AC28 -to SSEG4[3]
+set_location_assignment PIN_AD29 -to SSEG4[2]
+set_location_assignment PIN_AE29 -to SSEG4[1]
+set_location_assignment PIN_AB23 -to SSEG4[0]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
