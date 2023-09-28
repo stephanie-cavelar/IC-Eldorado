@@ -1,0 +1,83 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# File: C:\Users\ttkav\Downloads\spi-fpga-master\spi-fpga-master\SPI_COMPONENT_pin.csv
+# Generated on: Fri Sep 22 14:15:37 2023
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Transceiver Analog Settings Protocol,VCCR_GXB/VCCT_GXB Voltage,Transceiver I/O Pin Termination,Transceiver Dedicated Refclk Pin Termination,Transmitter Common Mode Driver Voltage,Transmitter Slew Rate Control,Transmitter Differential Output Voltage,Receiver Buffer Common Mode Voltage
+BTN_MENU_ACTION,Input,PIN_AA14,3B,B3B_N0,,,,,,,,,,,,,
+BTN_MENU_MODE,Input,PIN_AA15,3B,B3B_N0,,,,,,,,,,,,,
+CLK,Input,PIN_AF14,3B,B3B_N0,,,,,,,,,,,,,
+key_s_data[3],Input,PIN_AE12,3A,B3A_N0,,,,,,,,,,,,,
+key_s_data[2],Input,PIN_AD10,3A,B3A_N0,,,,,,,,,,,,,
+key_s_data[1],Input,PIN_AC9,3A,B3A_N0,,,,,,,,,,,,,
+key_s_data[0],Input,PIN_AE11,3A,B3A_N0,,,,,,,,,,,,,
+RST,Input,PIN_AD11,3A,B3A_N0,,,,,,,,,,,,,
+S_CS_N,Input,PIN_AB17,4A,B4A_N0,,,,,,,,,,,,,
+S_MISO,Output,PIN_AA21,4A,B4A_N0,,,,,,,,,,,,,
+S_MOSI,Input,PIN_AB21,4A,B4A_N0,,,,,,,,,,,,,
+S_SCLK,Input,PIN_AC23,4A,B4A_N0,,,,,,,,,,,,,
+SSEG[6],Output,PIN_AH28,5A,B5A_N0,,,,,,,,,,,,,
+SSEG[5],Output,PIN_AG28,5A,B5A_N0,,,,,,,,,,,,,
+SSEG[4],Output,PIN_AF28,5A,B5A_N0,,,,,,,,,,,,,
+SSEG[3],Output,PIN_AG27,5A,B5A_N0,,,,,,,,,,,,,
+SSEG[2],Output,PIN_AE28,5A,B5A_N0,,,,,,,,,,,,,
+SSEG[1],Output,PIN_AE27,5A,B5A_N0,,,,,,,,,,,,,
+SSEG[0],Output,PIN_AE26,5A,B5A_N0,,,,,,,,,,,,,
+BTN_RST,Unknown,PIN_AD12,3A,B3A_N0,,,,,,,,,,,,,
+M_SCLK,Unknown,PIN_Y18,4A,B4A_N0,,,,,,,,,,,,,
+M_CS_N,Unknown,PIN_AC18,4A,B4A_N0,,,,,,,,,,,,,
+M_MOSI,Unknown,PIN_AD17,4A,B4A_N0,,,,,,,,,,,,,
+M_MISO,Unknown,PIN_Y17,4A,B4A_N0,,,,,,,,,,,,,
+SSEG[7],Unknown,PIN_AH22,4A,B4A_N0,,,,,,,,,,,,,
+SSEG_AN[0],Unknown,PIN_AG22,4A,B4A_N0,,,,,,,,,,,,,
+SSEG_AN[1],Unknown,PIN_AF19,4A,B4A_N0,,,,,,,,,,,,,
+SSEG_AN[2],Unknown,PIN_AD21,4A,B4A_N0,,,,,,,,,,,,,
+SSEG_AN[3],Unknown,PIN_AE22,4A,B4A_N0,,,,,,,,,,,,,
+MOUT[0],Unknown,PIN_V16,4A,B4A_N0,,,,,,,,,,,,,
+MOUT[1],Unknown,PIN_W16,4A,B4A_N0,,,,,,,,,,,,,
+MOUT[2],Unknown,PIN_V17,4A,B4A_N0,,,,,,,,,,,,,
+MOUT[3],Unknown,PIN_V18,4A,B4A_N0,,,,,,,,,,,,,
+SOUT[0],Unknown,PIN_W19,4A,B4A_N0,,,,,,,,,,,,,
+SOUT[1],Unknown,PIN_Y19,4A,B4A_N0,,,,,,,,,,,,,
+SOUT[2],Unknown,PIN_W20,5A,B5A_N0,,,,,,,,,,,,,
+SOUT[3],Unknown,PIN_W21,5A,B5A_N0,,,,,,,,,,,,,
+key_m_data[3],Unknown,PIN_AF10,3A,B3A_N0,,,,,,,,,,,,,
+key_m_data[2],Unknown,PIN_AF9,3A,B3A_N0,,,,,,,,,,,,,
+key_m_data[1],Unknown,PIN_AC12,3A,B3A_N0,,,,,,,,,,,,,
+key_m_data[0],Unknown,PIN_AB12,3A,B3A_N0,,,,,,,,,,,,,
+SSEG2[6],Unknown,PIN_W25,5B,B5B_N0,,,,,,,,,,,,,
+SSEG2[5],Unknown,PIN_V23,5A,B5A_N0,,,,,,,,,,,,,
+SSEG2[4],Unknown,PIN_W24,5A,B5A_N0,,,,,,,,,,,,,
+SSEG2[3],Unknown,PIN_W22,5A,B5A_N0,,,,,,,,,,,,,
+SSEG2[2],Unknown,PIN_Y24,5A,B5A_N0,,,,,,,,,,,,,
+SSEG2[1],Unknown,PIN_Y23,5A,B5A_N0,,,,,,,,,,,,,
+SSEG2[0],Unknown,PIN_AA24,5A,B5A_N0,,,,,,,,,,,,,
+SSEG3[6],Unknown,PIN_AC30,5B,B5B_N0,,,,,,,,,,,,,
+SSEG3[5],Unknown,PIN_AC29,5B,B5B_N0,,,,,,,,,,,,,
+SSEG3[4],Unknown,PIN_AD30,5B,B5B_N0,,,,,,,,,,,,,
+SSEG3[3],Unknown,PIN_AC28,5B,B5B_N0,,,,,,,,,,,,,
+SSEG3[2],Unknown,PIN_AD29,5B,B5B_N0,,,,,,,,,,,,,
+SSEG3[1],Unknown,PIN_AE29,5B,B5B_N0,,,,,,,,,,,,,
+SSEG3[0],Unknown,PIN_AB23,5A,B5A_N0,,,,,,,,,,,,,
+SSEG4[6],Unknown,PIN_AB22,5A,B5A_N0,,,,,,,,,,,,,
+SSEG4[5],Unknown,PIN_AB25,5A,B5A_N0,,,,,,,,,,,,,
+SSEG4[4],Unknown,PIN_AB28,5B,B5B_N0,,,,,,,,,,,,,
+SSEG4[3],Unknown,PIN_AC25,5A,B5A_N0,,,,,,,,,,,,,
+SSEG4[2],Unknown,PIN_AD25,5A,B5A_N0,,,,,,,,,,,,,
+SSEG4[1],Unknown,PIN_AC27,5A,B5A_N0,,,,,,,,,,,,,
+SSEG4[0],Unknown,PIN_AD26,5A,B5A_N0,,,,,,,,,,,,,

@@ -1,0 +1,40 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# File: C:\Users\ttkav\Downloads\spi-fpga-master\spi-fpga-master\examples\loopback\quartus\SPI_COMPONENT_secondary_pin.csv
+# Generated on: Fri Sep 22 14:06:04 2023
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Transceiver Analog Settings Protocol,VCCR_GXB/VCCT_GXB Voltage,Transceiver I/O Pin Termination,Transceiver Dedicated Refclk Pin Termination,Transmitter Common Mode Driver Voltage,Transmitter Slew Rate Control,Transmitter Differential Output Voltage,Receiver Buffer Common Mode Voltage
+BTN_MENU_ACTION,Input,PIN_Y11,3B,B3B_N0,PIN_Y11,,,,,,,,,,,,,
+BTN_MENU_MODE,Input,PIN_AC10,3B,B3B_N0,PIN_AC10,,,,,,,,,,,,,
+CLK,Input,PIN_R20,5B,B5B_N0,PIN_R20,,,,,,,,,,,,,
+key_s_data[3],Input,PIN_AC8,3B,B3B_N0,PIN_AC8,,,,,,,,,,,,,
+key_s_data[2],Input,PIN_AD13,4A,B4A_N0,PIN_AD13,,,,,,,,,,,,,
+key_s_data[1],Input,PIN_AE10,4A,B4A_N0,PIN_AE10,,,,,,,,,,,,,
+key_s_data[0],Input,PIN_AC9,3B,B3B_N0,PIN_AC9,,,,,,,,,,,,,
+RST,Input,PIN_AE19,4A,B4A_N0,PIN_AE19,,,,,,,,,,,,,
+S_CS_N,Input,PIN_W20,5A,B5A_N0,PIN_W20,,,,,,,,,,,,,
+S_MISO,Output,PIN_AA7,3A,B3A_N0,PIN_AA7,,,,,,,,,,,,,
+S_MOSI,Input,PIN_AA22,5A,B5A_N0,PIN_AA22,,,,,,,,,,,,,
+S_SCLK,Input,PIN_AC23,5A,B5A_N0,PIN_AC23,,,,,,,,,,,,,
+SSEG[6],Output,PIN_Y18,4A,B4A_N0,PIN_Y18,,,,,,,,,,,,,
+SSEG[5],Output,PIN_Y19,4A,B4A_N0,PIN_Y19,,,,,,,,,,,,,
+SSEG[4],Output,PIN_Y20,4A,B4A_N0,PIN_Y20,,,,,,,,,,,,,
+SSEG[3],Output,PIN_W18,4A,B4A_N0,PIN_W18,,,,,,,,,,,,,
+SSEG[2],Output,PIN_V17,4A,B4A_N0,PIN_V17,,,,,,,,,,,,,
+SSEG[1],Output,PIN_V18,4A,B4A_N0,PIN_V18,,,,,,,,,,,,,
+SSEG[0],Output,PIN_V19,4A,B4A_N0,PIN_V19,,,,,,,,,,,,,
