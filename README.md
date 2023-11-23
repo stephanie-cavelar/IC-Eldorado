@@ -31,6 +31,8 @@ Na figura a seguir pode-se observar que os dados advindos do Secundário (S-din)
 
 https://github.com/stephanie-cavelar/IC-Eldorado/assets/80367957/f0dab6ca-d5bd-4aa6-aab3-596d796bba9d
 
+## Síntese
+A etapa de síntese consiste na conversão do RTL em registradores e portas genéricas, otimização do design em área e performance, bem como o mapeamento das portas genéricas para uma biblioteca de células padrão de acordo com a tecnologia empregada. No projeto, será utilizada como ferramenta de síntese o software Genus da Cadence, e a tecnologia adotada será  a de 180nm da TMSC. 
 
 ## Referências
 Serial Peripheral Interface (SPI) em Verilog. Disponível em: https://alchitry.com/serial-peripheral-interface-spi-verilog. Acesso em: [06 de agosto de 2023].
